@@ -1,1 +1,1 @@
-Project for ditribution of the food to needy
+Project for distribution of the food to needy
