@@ -111,7 +111,7 @@
       <input type="text" placeholder="Enter the name of the person of contact" name="NGOspoc" required>
 
       <label for="NGO Number"><b>Contact Number</b></label>
-      <input type="tel" placeholder="Enter the contact number of your NGO" name="NGOumber" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+      <input type="tel" placeholder="Enter the contact number of your NGO" name="NGOumber" >
 
       <label for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
@@ -126,8 +126,11 @@
       <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
 
       <div class="clearfix">
-
-        <button type="submit" class="signupbtn">Sign Up</button>
+ 
+     
+     <button><a href="dashboard" class="signupbtn" type="submit">SIGN UP</a></button>
+        
+        
       </div>
     </div>
   </form>
