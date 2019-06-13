@@ -16,13 +16,15 @@
 
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min." rel="stylesheet">
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
   <link href="css/home.css" rel="stylesheet">
+  <link href="css/ngo.css" rel="stylesheet">
+  <link href="css/donor.css" rel="stylesheet">
 
  
 </head>
@@ -83,9 +85,67 @@
                                Please fill up the following form and a suitable NGO will contact you soon. Thank you! Keep Donating!
                           </p>
                           <p>
-                                    
+  
+  
+  
+  
+  
+    <form class="modal-content" action="/action_page.php">
+      <div class="container">
+      <h1>DONOR FORM</h1>
+      <hr>
+     
+      <label for="First Name"><b>First Name</b></label>
+      <input type="text" placeholder="Enter your first name" name="Fname" required>
+
+      <label for="Last Name"><b>Last Name</b></label>
+      <input type="text" placeholder="Enter your last name" name="Lname" required>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="Donor Number"><b>Contact Number</b></label>
+      <input type="tel" placeholder="Enter your contact number" name="Donorumber" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+
+      <label for="NGO Number"><b>Contact Number</b></label><br>
+      <input type="checkbox" name="option1" value="Corporate"> Corporate<br>
+      <input type="checkbox" name="option2" value="Restaurant"> Restaurant<br>
+      <input type="checkbox" name="option3" value="School/College"> School/College<br>
+      <input type="checkbox" name="option4" value="Event/ Party Organizer"> Event/Party Organizer<br><br>
+
+
+      <label for="Event Date"><b>Date</b></label><br>
+      <input type="date"name="EventDate" required><br><br>
+       
+
+       <label for="Pickup time"><b>Time for Pickup</b></label><br>
+      <input type="time"name="PickupTime" required><br><br>
+
+
+      <label for="Donor Address"><b>Address</b></label>
+      <input type="text" placeholder="Enter address of venue of event" name="DonorAddress" required>
+
+      <label for="Donor City"><b>City</b></label>
+      <input type="text" placeholder="Enter the name of the city of venue " name="DonorCity" required>
+
+      <label for="Food Amount"><b>Amount of Food in Kg</b></label>
+      <input type="number" placeholder="Enter the amount of food available for pickup" min = "1" name="FoodAmount" required>
+
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> All the above information is true to my knowledge
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+     
+      <button type="submit" class="signupbtn">Donate</button>
+      </div>
+    </div>
+  </form>  
                         
-                                <button type = "button"><a href='https://forms.gle/7yL3XWPSVzgxYxHX7' class="btn btn-primary btn-lg btn-block">DONATE</a></div>
+                          
                           </p>
                         </div>
                       </div>

@@ -87,18 +87,31 @@
                           <p>
                                     
                         
-                              
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
 
-<div id="id01" class="modal">
-  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+
   <form class="modal-content" action="/action_page.php">
     <div class="container">
       <h1>Sign Up</h1>
-      <p>Please fill in this form to create an account.</p>
       <hr>
+    
+      <label for="NGO Name"><b>NGOName</b></label>
+      <input type="text" placeholder="Enter the name of your NGO" name="NGOName" required>
+
       <label for="email"><b>Email</b></label>
       <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="NGO Address"><b>Address</b></label>
+      <input type="text" placeholder="Enter the address of your NGO" name="NGOAddress" required>
+
+      <label for="NGO City"><b>City</b></label>
+      <input type="text" placeholder="Enter the city in which NGO located" name="NGOCity" required>
+
+      <label for="NGO SPOC"><b>SPOC</b></label>
+      <input type="text" placeholder="Enter the name of the person of contact" name="NGOspoc" required>
+
+      <label for="NGO Number"><b>Contact Number</b></label>
+      <input type="tel" placeholder="Enter the contact number of your NGO" name="NGOumber" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
 
       <label for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
@@ -113,18 +126,13 @@
       <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
 
       <div class="clearfix">
-        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+
         <button type="submit" class="signupbtn">Sign Up</button>
       </div>
     </div>
   </form>
-</div>
 
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
-}
-</script>
+=
                           </p>
                         </div> 
                       </div>
