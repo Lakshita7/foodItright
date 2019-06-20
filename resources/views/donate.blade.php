@@ -105,9 +105,9 @@
       <input type="text" placeholder="Enter Email" name="email" required>
 
       <label for="Donor Number"><b>Contact Number</b></label>
-      <input type="tel" placeholder="Enter your contact number" name="Donorumber" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+      <input type="tel" placeholder="Enter your contact number" name="Donorumber"required>
 
-      <label for="NGO Number"><b>Contact Number</b></label><br>
+      <label for="NGO Number"><b>Type of individual</b></label><br>
       <input type="checkbox" name="option1" value="Corporate"> Corporate<br>
       <input type="checkbox" name="option2" value="Restaurant"> Restaurant<br>
       <input type="checkbox" name="option3" value="School/College"> School/College<br>
@@ -155,5 +155,4 @@
               </div>
             </div>
           </section>
-      <!--/ Intro Skew End /-->
-    
+      

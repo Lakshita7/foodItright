@@ -90,7 +90,7 @@
 
 
 
-  <form class="modal-content" action="/action_page.php">
+  <form class="modal-content" action="/action_page.php" >
     <div class="container">
       <h1>Sign Up</h1>
       <hr>
@@ -126,7 +126,7 @@
       <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
 
       <div class="clearfix">
- 
+     
      
      <button><a href="dashboard" class="signupbtn" type="submit">SIGN UP</a></button>
         
