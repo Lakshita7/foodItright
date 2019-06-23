@@ -90,7 +90,9 @@
 
 
 
-  <form class="modal-content" action="/action_page.php" >
+  <form class="modal-content" action="/NGO1" method = "POST">
+  {{ csrf_field() }}
+
     <div class="container">
       <h1>Sign Up</h1>
       <hr>
@@ -116,8 +118,7 @@
       <label for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
 
-      <label for="psw-repeat"><b>Repeat Password</b></label>
-      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    
       
       <label>
         <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
