@@ -129,7 +129,7 @@
       <div class="clearfix">
      
      
-     <button><a href="dashboard" class="signupbtn" type="submit">SIGN UP</a></button>
+      <button type="submit" class="signupbtn">SIGN UP</button>
         
         
       </div>
